@@ -8,7 +8,7 @@ import { Home } from './Components/Main/Home/Home'
 // import {Update_Order} from './Components/Forms/Admin/Update Order/Update_Order'
 
 function App() {
-  axios.defaults.withCredentials=true
+  // axios.defaults.withCredentials=true
   return (
     <>
       <Router>

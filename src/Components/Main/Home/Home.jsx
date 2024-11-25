@@ -1,5 +1,6 @@
 export const Home=()=>{
-    return(<>
+    return(
+    <>
       <h1>Home</h1>
     </>)
 }
