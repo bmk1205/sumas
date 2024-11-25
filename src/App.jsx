@@ -1,5 +1,8 @@
 import {BrowserRouter as Router,Route,Routes} from 'react-router-dom'
+// import { Home } from './Components/Main/Home/Home'
+import { Dashboard } from './Components/Main/DashBoard/DashBoard'
 import { Home } from './Components/Main/Home/Home'
+import { Menbers } from './Components/Menbers'
 // import { Home } from './Components/Main Components/Commen/Home/Home'
 // import { Admin } from './Components/Main Components/Admin/Admin'
 // import axios from 'axios'
@@ -20,7 +23,8 @@ function App() {
                       <Route path='update_order/:code' element={<Update_Order/>}/>
                   </Route>
                </Route>  */}
-              {/* <Route path='*' element={<Home/>}/> */}
+               <Route path='/menber' element={<Menbers/>}/>
+              <Route path='*' element={<Home/>}/>
           </Routes>
       </Router>
     </>
